@@ -32,7 +32,7 @@ static int find(long p)
 	while(counter*counter<=p) {
 		if(p%counter==0)
 		{
-			p=p/counter;   //smaller primes mein todta jaayega
+			p=p/counter;   
 			//System.out.println(counter);
 		}
 		else counter++;
